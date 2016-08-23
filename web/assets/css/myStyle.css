@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+         url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+         url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+         url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+@font-face {
+    font-family: 'Wangxizhi';
+
+    src: url('../fonts/wangxizhi.ttf');
+}
+
+h2{
+    font-family: Wangxizhi;
+    text-align: center;
+}
+
+.loginLayout{
+    background-color: rgb(108,160,201);
+    left: 630px;
+    top: 200px;
+    position: absolute;
+    width: 300px;
+    height: auto;
+    border:0px solid;
+    border-radius:25px;
+    -moz-border-radius:25px;
+}
+.bodyStyle{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.registerStyle{
+    background-color: rgb(108,160,201);
+    left: 440px;
+    top: 150px;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    border:0px solid;
+    border-radius:25px;
+    -moz-border-radius:25px;
+}
+.registerTitleStyle{
+
+    margin-left: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: medium;
+    color: aqua;
+}
+.formStyle{
+    left: 70px;
+    top: 100px;
+    position: absolute;
+}
+.bodyBackgroundStyle {
+    background-image: url("../images/bodyBackgroundStyle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subBodyBackgroundStyle {
+    background-image: url("../images/subBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
